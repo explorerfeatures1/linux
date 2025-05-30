@@ -1,0 +1,11 @@
+check uname -m
+mkdir -p ~/nuclei && cd ~/nuclei
+wget https://github.com/projectdiscovery/nuclei/releases/download/v3.1.7/nuclei_3.1.7_linux_amd64.zip
+# новые версии можно посмотреть https://github.com/projectdiscovery/nuclei/releases
+
+unzip nuclei_*_linux_amd64.zip
+chmod +x nuclei
+
+№ Добавить путь в ваш .bashrc или .zshrc:
+echo 'export PATH=$PATH:~/nuclei' >> ~/.bashrc
+source ~/.bashrc

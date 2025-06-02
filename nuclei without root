@@ -9,3 +9,9 @@ chmod +x nuclei
 № Добавить путь в ваш .bashrc или .zshrc:
 echo 'export PATH=$PATH:~/nuclei' >> ~/.bashrc
 source ~/.bashrc
+
+скачиваем nuclei templates (архив main.zip)
+wget https://github.com/projectdiscovery/nuclei-templates/archive/refs/heads/main.zip
+ unzip main.zip
+
+nuclei -target example.com -t nuclei-templates-main

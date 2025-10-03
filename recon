@@ -1,0 +1,5 @@
+https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS
+curl -L https://github.com/peass-ng/PEASS-ng/releases/latest/download/linpeas.sh | sh
+
+#pspy
+https://github.com/DominicBreuker/pspy/releases

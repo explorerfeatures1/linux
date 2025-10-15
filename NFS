@@ -1,0 +1,11 @@
+111 порт открыт
+
+проверка 
+showmount -e ip
+ответ: /srv/nfs/user1 *
+создаем директорию куда будем монтировать
+mkdir /mnt/directory
+sudo mount -t nfs -o vers=2 <ip>:/srv/nfs/user1 /mnt/directory -o nolock # если версия 2 не поддерживается, пробуем 1 и 3
+
+после на kali заходим в /mnt
+должна быть папка directory примонтированная с удаленного хоста

